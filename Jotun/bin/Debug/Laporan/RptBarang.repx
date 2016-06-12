@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="14.2.6.0" Ref="2" Name="RptBarang" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" DataAdapter="#Ref-1" DataSource="#Ref-0" DataMember="view_barang" Version="14.2" PageHeight="1100" PageWidth="850">
+  <Bands>
+    <Item1 Ref="3" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="30.20833">
+      <Controls>
+        <Item1 Ref="4" Name="xrTable2" ControlType="XRTable" SizeF="650,25" LocationFloat="0, 0" Padding="5,5,5,5,100" TextAlignment="MiddleLeft">
+          <Rows>
+            <Item1 Ref="5" Name="xrTableRow2" ControlType="XRTableRow" Weight="11.5">
+              <Cells>
+                <Item1 Ref="6" Name="xrTableCell8" ControlType="XRTableCell" Text="xrTableCell8" Weight="0.15384615384615386">
+                  <DataBindings>
+                    <Item1 Ref="7" PropertyName="Text" DataMember="view_barang.kd_barang" />
+                  </DataBindings>
+                </Item1>
+                <Item2 Ref="8" Name="xrTableCell9" ControlType="XRTableCell" Text="xrTableCell9" Weight="0.25739642442330812">
+                  <DataBindings>
+                    <Item1 Ref="9" PropertyName="Text" DataMember="view_barang.nama" />
+                  </DataBindings>
+                </Item2>
+                <Item3 Ref="10" Name="xrTableCell10" ControlType="XRTableCell" Text="xrTableCell10" Weight="0.14521698359201646">
+                  <DataBindings>
+                    <Item1 Ref="11" PropertyName="Text" DataMember="view_barang.no_batch" />
+                  </DataBindings>
+                </Item3>
+                <Item4 Ref="12" Name="xrTableCell11" ControlType="XRTableCell" Text="xrTableCell11" Weight="0.10552271194006566">
+                  <DataBindings>
+                    <Item1 Ref="13" PropertyName="Text" DataMember="view_barang.tipe" />
+                  </DataBindings>
+                </Item4>
+                <Item5 Ref="14" Name="xrTableCell12" ControlType="XRTableCell" Text="xrTableCell12" TextAlignment="MiddleCenter" Weight="0.1434910863391041">
+                  <DataBindings>
+                    <Item1 Ref="15" FormatString="{0:N0}" PropertyName="Text" DataMember="view_barang.ukuran" />
+                  </DataBindings>
+                  <StylePriority Ref="16" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="17" Name="xrTableCell13" ControlType="XRTableCell" Text="xrTableCell13" TextAlignment="MiddleRight" Weight="0.16765273776985487">
+                  <DataBindings>
+                    <Item1 Ref="18" FormatString="{0:N0}" PropertyName="Text" DataMember="view_barang.harga" />
+                  </DataBindings>
+                  <StylePriority Ref="19" UseTextAlignment="false" />
+                </Item6>
+                <Item7 Ref="20" Name="xrTableCell14" ControlType="XRTableCell" Text="xrTableCell14" TextAlignment="MiddleCenter" Weight="0.10379697901257395">
+                  <DataBindings>
+                    <Item1 Ref="21" FormatString="{0:N0}" PropertyName="Text" DataMember="view_barang.terjual" />
+                  </DataBindings>
+                  <StylePriority Ref="22" UseTextAlignment="false" />
+                </Item7>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="23" UsePadding="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item1>
+    <Item2 Ref="24" Name="TopMargin" ControlType="TopMarginBand" Padding="0,0,0,0,100" TextAlignment="TopLeft" HeightF="100" />
+    <Item3 Ref="25" Name="BottomMargin" ControlType="BottomMarginBand" Padding="0,0,0,0,100" TextAlignment="TopLeft" HeightF="100" />
+    <Item4 Ref="26" Name="ReportHeader" ControlType="ReportHeaderBand" HeightF="97.91666">
+      <Controls>
+        <Item1 Ref="27" Name="xrLabel2" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="279.1667,86.875" LocationFloat="0, 0" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Text="CV. Wardana Abadi Djaya&#xD;&#xA;NPWP: 03.124.941.0-324.000&#xD;&#xA;Jl. Ikan Bawal No.100 Teluk Betung&#xD;&#xA;Bandar Lampung 35223 - Indonesia" Multiline="true">
+          <StylePriority Ref="28" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item4>
+    <Item5 Ref="29" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="38.54167">
+      <Controls>
+        <Item1 Ref="30" Name="xrLine1" ControlType="XRLine" SizeF="650,2.08334" LocationFloat="0, 7.916667" LineWidth="2" />
+        <Item2 Ref="31" Name="xrLine2" ControlType="XRLine" SizeF="650,2.08334" LocationFloat="0, 35" LineWidth="2" />
+        <Item3 Ref="32" Name="xrTable1" ControlType="XRTable" SizeF="650,25" LocationFloat="0, 10.00001" Font="Times New Roman, 9.75pt, style=Bold" Padding="5,5,5,5,100" TextAlignment="MiddleLeft">
+          <Rows>
+            <Item1 Ref="33" Name="xrTableRow1" ControlType="XRTableRow" Weight="1">
+              <Cells>
+                <Item1 Ref="34" Name="xrTableCell1" ControlType="XRTableCell" Text="Kode Barang" Weight="1" />
+                <Item2 Ref="35" Name="xrTableCell2" ControlType="XRTableCell" Text="Nama" Weight="1.6730770052396333" />
+                <Item3 Ref="36" Name="xrTableCell3" ControlType="XRTableCell" Text="No. Batch" Weight="0.9439103522667518" />
+                <Item4 Ref="37" Name="xrTableCell4" ControlType="XRTableCell" Text="Tipe" Weight="0.6858972578782303" />
+                <Item5 Ref="38" Name="xrTableCell5" ControlType="XRTableCell" Text="Ukuran" TextAlignment="MiddleCenter" Weight="0.93269230769230771">
+                  <StylePriority Ref="39" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="40" Name="xrTableCell7" ControlType="XRTableCell" Text="Harga" TextAlignment="MiddleRight" Weight="1.0897427955040564">
+                  <StylePriority Ref="41" UseTextAlignment="false" />
+                </Item6>
+                <Item7 Ref="42" Name="xrTableCell6" ControlType="XRTableCell" Text="Terjual" TextAlignment="MiddleCenter" Weight="0.67468028141902048">
+                  <StylePriority Ref="43" UseTextAlignment="false" />
+                </Item7>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="44" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item3>
+      </Controls>
+    </Item5>
+    <Item6 Ref="45" ControlType="PageHeaderBand" Name="PageHeader" HeightF="45.83333">
+      <Controls>
+        <Item1 Ref="46" Name="xrLabel1" ControlType="XRLabel" TextAlignment="MiddleCenter" SizeF="279.1667,23" LocationFloat="185.7143, 10.00001" Font="Times New Roman, 16pt, style=Bold" Padding="2,2,0,0,100" Text="Laporan Data Barang">
+          <StylePriority Ref="47" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item6>
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v14.2" Ref="1" Content="~Xtra#NULL" Type="Jotun.DataSet1TableAdapters.view_barangTableAdapter" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v14.2" Ref="0" Content="~Xtra#NULL" Type="Jotun.DataSet1" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

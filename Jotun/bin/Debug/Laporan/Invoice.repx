@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="14.2.6.0" Ref="2" Name="RptInvoice" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" DataAdapter="#Ref-1" DataSource="#Ref-0" DataMember="invoice" Version="14.2" PageHeight="1169" PageWidth="827" PaperKind="A4">
+  <Bands>
+    <Item1 Ref="3" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="170.7916">
+      <Controls>
+        <Item1 Ref="4" Name="xrLabel2" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="226.04,20" LocationFloat="0, 6.791702" Padding="2,2,0,0,100" Text="CV.  WARDANA ABADI DJAYA">
+          <StylePriority Ref="5" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="6" Name="xrLabel8" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="226.04,20" LocationFloat="0, 127.7917" Padding="2,2,0,0,100" Text="Fax : 0721-482833">
+          <StylePriority Ref="7" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="8" Name="xrLabel7" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="226.04,20" LocationFloat="0, 107.7917" Padding="2,2,0,0,100" Text="Phone : 0721-482833">
+          <StylePriority Ref="9" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="10" Name="xrLabel6" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="226.04,20" LocationFloat="0, 87.79168" Padding="2,2,0,0,100" Text="Email : jotunlampung@gmail.com">
+          <StylePriority Ref="11" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="12" Name="xrLabel5" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="226.04,20" LocationFloat="0, 67.79168" Padding="2,2,0,0,100" Text="Bandar Lampung 35223 - Indonesia">
+          <StylePriority Ref="13" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="14" Name="xrLabel4" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="226.04,20" LocationFloat="0, 47.79169" Padding="2,2,0,0,100" Text="Jl. Ikan Bawal No. 100 Teluk Betung">
+          <StylePriority Ref="15" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="16" Name="xrLabel3" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="226.04,20" LocationFloat="0, 27.79169" Padding="2,2,0,0,100" Text="NPWP : 03.124.941.0-324.000">
+          <StylePriority Ref="17" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="18" Name="xrLabel20" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="12.5,23" LocationFloat="452.0833, 96.79168" Padding="2,2,0,0,100" Text=":">
+          <StylePriority Ref="19" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="20" Name="xrLabel9" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="105.2083,23" LocationFloat="346.875, 4.791673" Padding="2,2,0,0,100" Text="TANGGAL">
+          <StylePriority Ref="21" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="22" Name="xrLabel10" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="105.21,23" LocationFloat="346.875, 27.79169" Padding="2,2,0,0,100" Text="NO. SJ">
+          <StylePriority Ref="23" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="24" Name="xrLabel11" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="105.21,23" LocationFloat="346.875, 50.79168" Padding="2,2,0,0,100" Text="NO. INVOICE">
+          <StylePriority Ref="25" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="26" Name="xrLabel12" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="105.21,23" LocationFloat="346.875, 73.79169" Padding="2,2,0,0,100" Text="KEPADA YTH">
+          <StylePriority Ref="27" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="28" Name="xrLabel13" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="12.5,23" LocationFloat="452.0833, 4.791673" Padding="2,2,0,0,100" Text=":">
+          <StylePriority Ref="29" UseTextAlignment="false" />
+        </Item13>
+        <Item14 Ref="30" Name="xrLabel14" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="12.5,23" LocationFloat="452.085, 27.79169" Padding="2,2,0,0,100" Text=":">
+          <StylePriority Ref="31" UseTextAlignment="false" />
+        </Item14>
+        <Item15 Ref="32" Name="xrLabel15" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="12.5,23" LocationFloat="452.085, 50.79171" Padding="2,2,0,0,100" Text=":">
+          <StylePriority Ref="33" UseTextAlignment="false" />
+        </Item15>
+        <Item16 Ref="34" Name="xrLabel16" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="12.5,23" LocationFloat="452.085, 73.79169" Padding="2,2,0,0,100" Text=":">
+          <StylePriority Ref="35" UseTextAlignment="false" />
+        </Item16>
+        <Item17 Ref="36" Name="xrLabel17" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="12.5,23" LocationFloat="452.085, 119.7917" Padding="2,2,0,0,100" Text=":">
+          <StylePriority Ref="37" UseTextAlignment="false" />
+        </Item17>
+        <Item18 Ref="38" Name="xrLabel19" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="12.5,23" LocationFloat="452.0849, 142.7917" Padding="2,2,0,0,100" Text=":">
+          <StylePriority Ref="39" UseTextAlignment="false" />
+        </Item18>
+        <Item19 Ref="40" Name="xrLabel18" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="105.21,23" LocationFloat="346.875, 119.7917" Padding="2,2,0,0,100" Text="PO. NO">
+          <StylePriority Ref="41" UseTextAlignment="false" />
+        </Item19>
+        <Item20 Ref="42" Name="xrLabel21" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="105.21,23" LocationFloat="346.875, 142.7917" Padding="2,2,0,0,100" Text="PO. PR">
+          <StylePriority Ref="43" UseTextAlignment="false" />
+        </Item20>
+        <Item21 Ref="44" Name="xrLabel22" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="162.4167,23" LocationFloat="464.5833, 4.791673" Padding="2,2,0,0,100" Text="xrLabel22">
+          <DataBindings>
+            <Item1 Ref="45" PropertyName="Text" DataMember="invoice.tgl" />
+          </DataBindings>
+          <StylePriority Ref="46" UseTextAlignment="false" />
+        </Item21>
+        <Item22 Ref="47" Name="xrLabel23" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="162.4151,23" LocationFloat="464.585, 27.79166" Padding="2,2,0,0,100" Text="xrLabel23">
+          <DataBindings>
+            <Item1 Ref="48" PropertyName="Text" DataMember="invoice.no_surat_jalan" />
+          </DataBindings>
+          <StylePriority Ref="49" UseTextAlignment="false" />
+        </Item22>
+        <Item23 Ref="50" Name="xrLabel24" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="162.4151,23" LocationFloat="464.585, 50.79165" Padding="2,2,0,0,100" Text="xrLabel24">
+          <DataBindings>
+            <Item1 Ref="51" PropertyName="Text" DataMember="invoice.no_invoice" />
+          </DataBindings>
+          <StylePriority Ref="52" UseTextAlignment="false" />
+        </Item23>
+        <Item24 Ref="53" Name="xrLabel25" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="162.415,23" LocationFloat="464.585, 119.7917" Padding="2,2,0,0,100" Text="xrLabel25">
+          <DataBindings>
+            <Item1 Ref="54" PropertyName="Text" DataMember="invoice.invoice_surat_jalan.no_po" />
+          </DataBindings>
+          <StylePriority Ref="55" UseTextAlignment="false" />
+        </Item24>
+        <Item25 Ref="56" Name="xrLabel26" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="162.415,23" LocationFloat="464.585, 142.7917" Padding="2,2,0,0,100" Text="xrLabel26">
+          <DataBindings>
+            <Item1 Ref="57" PropertyName="Text" DataMember="invoice.invoice_surat_jalan.po_pr" />
+          </DataBindings>
+          <StylePriority Ref="58" UseTextAlignment="false" />
+        </Item25>
+        <Item26 Ref="59" Name="xrLabel27" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="346.875, 96.79168" Padding="2,2,0,0,100" Text="xrLabel27">
+          <DataBindings>
+            <Item1 Ref="60" PropertyName="Text" DataMember="invoice.kd_customer" />
+          </DataBindings>
+          <StylePriority Ref="61" UseTextAlignment="false" />
+        </Item26>
+        <Item27 Ref="62" Name="xrLabel28" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="162.4151,23.00002" LocationFloat="464.5833, 96.79168" Padding="2,2,0,0,100" Text="xrLabel28">
+          <DataBindings>
+            <Item1 Ref="63" PropertyName="Text" DataMember="invoice.invoice_customer.nama" />
+          </DataBindings>
+          <StylePriority Ref="64" UseTextAlignment="false" />
+        </Item27>
+      </Controls>
+    </Item1>
+    <Item2 Ref="65" Name="TopMargin" ControlType="TopMarginBand" Padding="0,0,0,0,100" TextAlignment="TopLeft" HeightF="100" />
+    <Item3 Ref="66" Name="BottomMargin" ControlType="BottomMarginBand" Padding="0,0,0,0,100" TextAlignment="TopLeft" HeightF="100" />
+    <Item4 Ref="68" ControlType="DetailReportBand" Name="DetailReport" Level="0" DataMember="invoice.detail_invoice_ibfk_1" DataSource="#Ref-0" DataAdapter="#Ref-67">
+      <Bands>
+        <Item1 Ref="69" ControlType="DetailBand" Name="Detail1" HeightF="28.65586">
+          <Controls>
+            <Item1 Ref="70" Name="xrTable2" ControlType="XRTable" SizeF="622.8335,27.40386" LocationFloat="1.041668, 0" Padding="5,5,5,5,100" TextAlignment="MiddleLeft">
+              <Rows>
+                <Item1 Ref="71" Name="xrTableRow2" ControlType="XRTableRow" Weight="11.5">
+                  <Cells>
+                    <Item1 Ref="72" Name="xrTableCell13" ControlType="XRTableCell" Weight="1.6951176164167949">
+                      <DataBindings>
+                        <Item1 Ref="73" PropertyName="Text" DataMember="invoice.detail_invoice_ibfk_1.kd_barang" />
+                      </DataBindings>
+                      <Summary Ref="74" Running="Report" Func="RecordNumber" IgnoreNullValues="true" />
+                    </Item1>
+                    <Item2 Ref="75" Name="xrTableCell7" ControlType="XRTableCell" Text="xrTableCell7" Weight="4.96708109602992">
+                      <DataBindings>
+                        <Item1 Ref="76" PropertyName="Text" DataMember="invoice.detail_invoice_ibfk_1.kd_barang" />
+                      </DataBindings>
+                    </Item2>
+                    <Item3 Ref="77" Name="xrTableCell8" ControlType="XRTableCell" Text="xrTableCell8" Weight="7.8115654767986253">
+                      <DataBindings>
+                        <Item1 Ref="78" PropertyName="Text" DataMember="invoice.detail_invoice_ibfk_1.detail_invoice_barang.nama" />
+                      </DataBindings>
+                    </Item3>
+                    <Item4 Ref="79" Name="xrTableCell9" ControlType="XRTableCell" Text="xrTableCell9" TextAlignment="MiddleCenter" Weight="2.0364548238435267">
+                      <DataBindings>
+                        <Item1 Ref="80" FormatString="{0:N0}" PropertyName="Text" DataMember="invoice.detail_invoice_ibfk_1.liter" />
+                      </DataBindings>
+                      <StylePriority Ref="81" UseTextAlignment="false" />
+                    </Item4>
+                    <Item5 Ref="82" Name="xrTableCell11" ControlType="XRTableCell" Text="xrTableCell11" TextAlignment="MiddleRight" Weight="5.1393720639669809">
+                      <DataBindings>
+                        <Item1 Ref="83" FormatString="{0:N0}" PropertyName="Text" DataMember="invoice.detail_invoice_ibfk_1.harga" />
+                      </DataBindings>
+                      <StylePriority Ref="84" UseTextAlignment="false" />
+                    </Item5>
+                    <Item6 Ref="85" Name="xrTableCell12" ControlType="XRTableCell" Text="xrTableCell12" TextAlignment="MiddleRight" Weight="4.40707262493484">
+                      <DataBindings>
+                        <Item1 Ref="86" FormatString="{0:N0}" PropertyName="Text" DataMember="invoice.detail_invoice_ibfk_1.total" />
+                      </DataBindings>
+                      <StylePriority Ref="87" UseTextAlignment="false" />
+                    </Item6>
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="88" UsePadding="false" UseTextAlignment="false" />
+            </Item1>
+          </Controls>
+        </Item1>
+        <Item2 Ref="89" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="31.4442">
+          <Controls>
+            <Item1 Ref="90" Name="xrTable1" ControlType="XRTable" SizeF="622.8335,25" LocationFloat="1.041674, 4.360869" Padding="5,5,5,5,100" TextAlignment="MiddleCenter">
+              <Rows>
+                <Item1 Ref="91" Name="xrTableRow1" ControlType="XRTableRow" Weight="1">
+                  <Cells>
+                    <Item1 Ref="92" Name="xrTableCell1" ControlType="XRTableCell" Text="NO." Weight="0.39229766642292274" />
+                    <Item2 Ref="93" Name="xrTableCell2" ControlType="XRTableCell" Text="KODE BARANG	" Weight="1.14952146548594" />
+                    <Item3 Ref="94" Name="xrTableCell3" ControlType="XRTableCell" Text="NAMA BARANG" Weight="1.8078141898436351" />
+                    <Item4 Ref="95" Name="xrTableCell4" ControlType="XRTableCell" Text="LITER" Weight="0.471292662543793" />
+                    <Item5 Ref="96" Name="xrTableCell5" ControlType="XRTableCell" Text="HARGA SATUAN" Weight="1.1893935861505709" />
+                    <Item6 Ref="97" Name="xrTableCell6" ControlType="XRTableCell" Text="JUMLAH" Weight="1.0199365166357273" />
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="98" UsePadding="false" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="99" Name="xrLine2" ControlType="XRLine" SizeF="626.2868,2.08333" LocationFloat="0, 29.36087" />
+          </Controls>
+        </Item2>
+        <Item3 Ref="100" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="134.8485">
+          <Controls>
+            <Item1 Ref="101" Name="xrLine3" ControlType="XRLine" SizeF="228.7394,2" LocationFloat="398.5695, 77.16818" />
+            <Item2 Ref="102" Name="xrTable3" ControlType="XRTable" SizeF="225.3057,50" LocationFloat="398.5695, 27.16818" TextAlignment="MiddleLeft">
+              <Rows>
+                <Item1 Ref="103" Name="xrTableRow3" ControlType="XRTableRow" Weight="1">
+                  <Cells>
+                    <Item1 Ref="104" Name="xrTableCell14" ControlType="XRTableCell" Text="DISKON" Weight="1.318748835635527" />
+                    <Item2 Ref="105" Name="xrTableCell15" ControlType="XRTableCell" TextAlignment="MiddleRight" Weight="1.1643062791105667">
+                      <DataBindings>
+                        <Item1 Ref="106" FormatString="{0:N0}" PropertyName="Text" DataMember="invoice.diskon" />
+                      </DataBindings>
+                      <StylePriority Ref="107" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item1>
+                <Item2 Ref="108" Name="xrTableRow4" ControlType="XRTableRow" Weight="1">
+                  <Cells>
+                    <Item1 Ref="109" Name="xrTableCell10" ControlType="XRTableCell" Text="TOTAL BAYAR" Weight="1.3220939634060331" />
+                    <Item2 Ref="110" Name="xrTableCell16" ControlType="XRTableCell" TextAlignment="MiddleRight" Weight="1.1609611513400606">
+                      <DataBindings>
+                        <Item1 Ref="111" FormatString="{0:N0}" PropertyName="Text" DataMember="invoice.total_bayar" />
+                      </DataBindings>
+                      <StylePriority Ref="112" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item2>
+              </Rows>
+              <StylePriority Ref="113" UseTextAlignment="false" />
+            </Item2>
+            <Item3 Ref="114" Name="xrLine1" ControlType="XRLine" SizeF="50.0535,2" LocationFloat="347.4674, 25.1682" />
+            <Item4 Ref="115" Name="xrLabel31" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="120.9618,23" LocationFloat="397.5695, 2.168179" Padding="3,3,3,3,100" Text="SUBTOTAL">
+              <StylePriority Ref="116" UsePadding="false" UseTextAlignment="false" />
+            </Item4>
+            <Item5 Ref="117" Name="xrLabel30" ControlType="XRLabel" TextAlignment="MiddleRight" SizeF="105.3424,23" LocationFloat="518.5328, 2.168179" Padding="3,3,3,3,100">
+              <DataBindings>
+                <Item1 Ref="118" FormatString="{0:N0}" PropertyName="Text" DataMember="invoice.total" />
+              </DataBindings>
+              <StylePriority Ref="119" UsePadding="false" UseTextAlignment="false" />
+            </Item5>
+            <Item6 Ref="120" Name="xrLabel29" ControlType="XRLabel" TextAlignment="MiddleCenter" SizeF="48.81009,23" LocationFloat="346.875, 2.168179" Padding="3,3,3,3,100" Text="xrLabel29">
+              <DataBindings>
+                <Item1 Ref="121" PropertyName="Text" DataMember="invoice.total_liter" />
+              </DataBindings>
+              <StylePriority Ref="122" UsePadding="false" UseTextAlignment="false" />
+            </Item6>
+          </Controls>
+        </Item3>
+        <Item4 Ref="123" ControlType="ReportFooterBand" Name="ReportFooter" HeightF="222.4748">
+          <Controls>
+            <Item1 Ref="124" Name="xrLabel37" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="105.21,18.13889" LocationFloat="41.56013, 196.0859" Padding="2,2,0,0,100" Text="Penerima">
+              <StylePriority Ref="125" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="126" Name="xrLabel36" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="139.585,18.36357" LocationFloat="41.56013, 177.7223" Padding="2,2,0,0,100" Text="__________________">
+              <StylePriority Ref="127" UseTextAlignment="false" />
+            </Item2>
+            <Item3 Ref="128" Name="xrLabel35" ControlType="XRLabel" TextAlignment="MiddleCenter" SizeF="139.585,18.36357" LocationFloat="433.3333, 177.7223" Padding="2,2,0,0,100" Text="__________________">
+              <StylePriority Ref="129" UseTextAlignment="false" />
+            </Item3>
+            <Item4 Ref="130" Name="xrLabel34" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="105.21,18.13889" LocationFloat="452.0833, 117.3056" Font="Times New Roman, 8pt" Padding="2,2,0,0,100" Text="HORMAT SAYA">
+              <StylePriority Ref="131" UseFont="false" UseTextAlignment="false" />
+            </Item4>
+            <Item5 Ref="132" Name="xrPageInfo1" ControlType="XRPageInfo" SizeF="203.1233,16.74999" Font="Times New Roman, 8pt" Padding="2,2,0,0,100" LocationFloat="413.8767, 100.5556" TextAlignment="MiddleLeft" Format="BANDAR LAMPUNG, {0:d-MMM-y}" PageInfo="DateTime">
+              <StylePriority Ref="133" UseFont="false" UseTextAlignment="false" />
+            </Item5>
+            <Item6 Ref="134" Name="xrLabel33" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="412.3063,32.86765" LocationFloat="39.77864, 32.86762" Font="Times New Roman, 9pt" Padding="2,2,0,0,100" Text=":  - Term of payment setelah barang diterma dan invoice ini ditandatangani&#xD;&#xA;   - Pembayaran dengan transfer ditujukan : a/n : CV. Wardana Abadi Djaya" Multiline="true">
+              <StylePriority Ref="135" UseFont="false" UseTextAlignment="false" />
+            </Item6>
+            <Item7 Ref="136" Name="xrLabel32" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="395.6851,32.86765" LocationFloat="0, 0" Font="Times New Roman, 9pt" Padding="2,2,0,0,100" Text="Note : Dokumen ini diserahkan untuk proses pembayaran, dan membuktikan&#xD;&#xA;bahwa total tagihan dengan perincian diatas" Multiline="true">
+              <StylePriority Ref="137" UseFont="false" UseTextAlignment="false" />
+            </Item7>
+          </Controls>
+        </Item4>
+      </Bands>
+    </Item4>
+    <Item5 Ref="138" Name="ReportHeader" ControlType="ReportHeaderBand" HeightF="28.20835">
+      <Controls>
+        <Item1 Ref="139" Name="xrLabel1" ControlType="XRLabel" TextAlignment="MiddleCenter" SizeF="100,23" LocationFloat="248.9583, 0" Font="Times New Roman, 11pt, style=Bold, Underline" Padding="2,2,0,0,100" Text="INVOICE">
+          <StylePriority Ref="140" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item5>
+  </Bands>
+  <CrossBandControls>
+    <Item1 Ref="141" Name="xrCrossBandLine6" ControlType="XRCrossBandLine" StartPointFloat="625, 1.736127" EndPointFloat="625, 76.17207" EndBand="#Ref-100" StartBand="#Ref-100" WidthF="1.15741" LocationFloat="625, 1.736127" />
+    <Item2 Ref="142" Name="xrCrossBandLine5" ControlType="XRCrossBandLine" StartPointFloat="518.2292, 3.720258" EndPointFloat="518.2292, 77.24037" EndBand="#Ref-100" StartBand="#Ref-89" WidthF="1.000061" LocationFloat="518.2292, 3.720258" />
+    <Item3 Ref="143" Name="xrCrossBandLine4" ControlType="XRCrossBandLine" StartPointFloat="397.5695, 4.513886" EndPointFloat="397.5695, 77.64104" EndBand="#Ref-100" StartBand="#Ref-89" WidthF="1" LocationFloat="397.5695, 4.513886" />
+    <Item4 Ref="144" Name="xrCrossBandLine3" ControlType="XRCrossBandLine" StartPointFloat="347.3307, 3.580729" EndPointFloat="347.3307, 25.39058" EndBand="#Ref-100" StartBand="#Ref-89" WidthF="1" LocationFloat="347.3307, 3.580729" />
+    <Item5 Ref="145" Name="xrCrossBandLine2" ControlType="XRCrossBandLine" StartPointFloat="159.7222, 4.629621" EndPointFloat="159.7222, 1.75491" EndBand="#Ref-100" StartBand="#Ref-89" WidthF="1" LocationFloat="159.7222, 4.629621" />
+    <Item6 Ref="146" Name="xrCrossBandLine1" ControlType="XRCrossBandLine" StartPointFloat="39.77865, 4.557292" EndPointFloat="39.77865, 2.367655" EndBand="#Ref-100" StartBand="#Ref-89" WidthF="1.000046" LocationFloat="39.77865, 4.557292" />
+    <Item7 Ref="147" Name="xrCrossBandBox1" ControlType="XRCrossBandBox" StartPointFloat="0, 3.3192" EndPointFloat="0, 4.083315" EndBand="#Ref-100" StartBand="#Ref-89" WidthF="626.3303" BorderWidth="1" LocationFloat="0, 3.3192" />
+  </CrossBandControls>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v14.2" Ref="0" Content="~Xtra#NULL" Type="Jotun.DataSet1" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v14.2" Ref="67" Content="~Xtra#NULL" Type="Jotun.DataSet1TableAdapters.detail_invoiceTableAdapter" />
+    <Item3 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v14.2" Ref="1" Content="~Xtra#NULL" Type="Jotun.DataSet1TableAdapters.invoiceTableAdapter" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

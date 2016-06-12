@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="14.2.6.0" Ref="2" Name="RptPOPusat" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" DataAdapter="#Ref-1" DataSource="#Ref-0" DataMember="po_pusat" Version="14.2" PageHeight="1169" PageWidth="827" PaperKind="A4">
+  <Bands>
+    <Item1 Ref="3" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="143.75">
+      <Controls>
+        <Item1 Ref="4" Name="xrLabel4" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="51.04166,23" LocationFloat="364.7083, 24.66669" Padding="2,2,0,0,100" Text="No.">
+          <StylePriority Ref="5" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="6" Name="xrLabel2" ControlType="XRLabel" TextAlignment="TopLeft" SizeF="234.375,52.91666" LocationFloat="47.50001, 10.00001" Font="Times New Roman, 10pt" Padding="2,2,0,0,100" Text="PT. JOTUN INDONESIA&#xD;&#xA;Kwasan Industri MM2100 Blok KK-1&#xD;&#xA;BEKASI - INDONESIA" Multiline="true">
+          <StylePriority Ref="7" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="8" Name="xrLabel3" ControlType="XRLabel" TextAlignment="TopLeft" SizeF="188.5417,23" LocationFloat="364.7083, 1.666673" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" Text="PURCHASE ORDER">
+          <StylePriority Ref="9" UseFont="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="10" Name="xrLabel1" ControlType="XRLabel" TextAlignment="TopLeft" SizeF="37.5,23" LocationFloat="10, 10" Font="Times New Roman, 10pt" Padding="2,2,0,0,100" Text="To :">
+          <StylePriority Ref="11" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="12" Name="xrLabel5" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="51.04166,23" LocationFloat="364.7083, 47.66668" Padding="2,2,0,0,100" Text="Date">
+          <StylePriority Ref="13" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="14" Name="xrLabel6" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="51.04166,23" LocationFloat="364.7083, 70.66669" Padding="2,2,0,0,100" Text="Term">
+          <StylePriority Ref="15" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="16" Name="xrLabel7" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="51.04166,23" LocationFloat="364.7083, 93.66668" Padding="2,2,0,0,100" Text="Project">
+          <StylePriority Ref="17" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="18" Name="xrLabel8" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="19.79169,23" LocationFloat="415.75, 93.66668" Padding="2,2,0,0,100" Text=":">
+          <StylePriority Ref="19" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="20" Name="xrLabel9" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="19.79169,23" LocationFloat="415.75, 70.66669" Padding="2,2,0,0,100" Text=":">
+          <StylePriority Ref="21" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="22" Name="xrLabel10" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="19.79169,23" LocationFloat="415.75, 47.66671" Padding="2,2,0,0,100" Text=":">
+          <StylePriority Ref="23" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="24" Name="xrLabel11" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="19.79169,23" LocationFloat="415.75, 24.66669" Padding="2,2,0,0,100" Text=":">
+          <StylePriority Ref="25" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="26" Name="xrLabel12" ControlType="XRLabel" SizeF="191.4583,23" LocationFloat="435.5417, 24.66669" Padding="2,2,0,0,100" Text="xrLabel12">
+          <DataBindings>
+            <Item1 Ref="27" PropertyName="Text" DataMember="po_pusat.no_po" />
+          </DataBindings>
+        </Item12>
+        <Item13 Ref="28" Name="xrLabel13" ControlType="XRLabel" SizeF="191.4583,23" LocationFloat="435.5417, 47.66668" Padding="2,2,0,0,100" Text="xrLabel13">
+          <DataBindings>
+            <Item1 Ref="29" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="po_pusat.tgl" />
+          </DataBindings>
+        </Item13>
+        <Item14 Ref="30" Name="xrLabel14" ControlType="XRLabel" SizeF="191.4583,23" LocationFloat="435.5417, 70.66669" Padding="2,2,0,0,100" Text="xrLabel14">
+          <DataBindings>
+            <Item1 Ref="31" PropertyName="Text" DataMember="po_pusat.term" />
+          </DataBindings>
+        </Item14>
+        <Item15 Ref="32" Name="xrLabel15" ControlType="XRLabel" SizeF="191.4583,23" LocationFloat="435.5417, 93.66668" Padding="2,2,0,0,100" Text="xrLabel15">
+          <DataBindings>
+            <Item1 Ref="33" PropertyName="Text" DataMember="po_pusat.project" />
+          </DataBindings>
+        </Item15>
+      </Controls>
+    </Item1>
+    <Item2 Ref="34" Name="TopMargin" ControlType="TopMarginBand" Padding="0,0,0,0,100" TextAlignment="TopLeft" HeightF="100" />
+    <Item3 Ref="35" Name="BottomMargin" ControlType="BottomMarginBand" Padding="0,0,0,0,100" TextAlignment="TopLeft" HeightF="100" />
+    <Item4 Ref="36" Name="ReportHeader" ControlType="ReportHeaderBand" HeightF="78.125" />
+    <Item5 Ref="38" ControlType="DetailReportBand" Name="DetailReport" Level="0" DataMember="po_pusat.detail_po_pusat_ibfk_2" DataSource="#Ref-0" DataAdapter="#Ref-37">
+      <Bands>
+        <Item1 Ref="39" ControlType="DetailBand" Name="Detail1" HeightF="30.20833">
+          <Controls>
+            <Item1 Ref="40" Name="xrTable2" ControlType="XRTable" SizeF="625.9048,30.20833" LocationFloat="0, 0" Padding="5,5,5,5,100" TextAlignment="MiddleLeft">
+              <Rows>
+                <Item1 Ref="41" Name="xrTableRow2" ControlType="XRTableRow" Weight="11.5">
+                  <Cells>
+                    <Item1 Ref="42" Name="xrTableCell18" ControlType="XRTableCell" Weight="0.077877688734619116">
+                      <DataBindings>
+                        <Item1 Ref="43" PropertyName="Text" DataMember="po_pusat.detail_po_pusat_ibfk_2.kd_barang" />
+                      </DataBindings>
+                      <Summary Ref="44" Running="Group" Func="RecordNumber" />
+                    </Item1>
+                    <Item2 Ref="45" Name="xrTableCell10" ControlType="XRTableCell" Text="xrTableCell10" Weight="0.19332381721536918">
+                      <DataBindings>
+                        <Item1 Ref="46" PropertyName="Text" DataMember="po_pusat.detail_po_pusat_ibfk_2.kd_barang" />
+                      </DataBindings>
+                    </Item2>
+                    <Item3 Ref="47" Name="xrTableCell11" ControlType="XRTableCell" Text="xrTableCell11" Weight="0.30043394673696433">
+                      <DataBindings>
+                        <Item1 Ref="48" PropertyName="Text" DataMember="po_pusat.detail_po_pusat_ibfk_2.detail_po_pusat_barang.nama" />
+                      </DataBindings>
+                    </Item3>
+                    <Item4 Ref="49" Name="xrTableCell12" ControlType="XRTableCell" Text="xrTableCell12" TextAlignment="MiddleCenter" Weight="0.091519271643595662">
+                      <DataBindings>
+                        <Item1 Ref="50" PropertyName="Text" DataMember="po_pusat.detail_po_pusat_ibfk_2.qty" />
+                      </DataBindings>
+                      <StylePriority Ref="51" UseTextAlignment="false" />
+                    </Item4>
+                    <Item5 Ref="52" Name="xrTableCell13" ControlType="XRTableCell" Text="xrTableCell13" TextAlignment="MiddleCenter" Weight="0.13429344153867026">
+                      <DataBindings>
+                        <Item1 Ref="53" PropertyName="Text" DataMember="po_pusat.detail_po_pusat_ibfk_2.detail_po_pusat_barang.ukuran" />
+                      </DataBindings>
+                      <StylePriority Ref="54" UseTextAlignment="false" />
+                    </Item5>
+                    <Item6 Ref="55" Name="xrTableCell14" ControlType="XRTableCell" Text="xrTableCell14" Weight="0.14167069003823">
+                      <DataBindings>
+                        <Item1 Ref="56" PropertyName="Text" DataMember="po_pusat.detail_po_pusat_ibfk_2.detail_po_pusat_barang.tipe" />
+                      </DataBindings>
+                    </Item6>
+                    <Item7 Ref="57" Name="xrTableCell15" ControlType="XRTableCell" Text="xrTableCell15" TextAlignment="MiddleCenter" Weight="0.13430862869464752">
+                      <DataBindings>
+                        <Item1 Ref="58" PropertyName="Text" DataMember="po_pusat.detail_po_pusat_ibfk_2.liter" />
+                      </DataBindings>
+                      <StylePriority Ref="59" UseTextAlignment="false" />
+                    </Item7>
+                    <Item8 Ref="60" Name="xrTableCell16" ControlType="XRTableCell" Text="xrTableCell16" TextAlignment="MiddleRight" Weight="0.17863538784409538">
+                      <DataBindings>
+                        <Item1 Ref="61" FormatString="{0:N0}" PropertyName="Text" DataMember="po_pusat.detail_po_pusat_ibfk_2.harga" />
+                      </DataBindings>
+                      <StylePriority Ref="62" UseTextAlignment="false" />
+                    </Item8>
+                    <Item9 Ref="63" Name="xrTableCell17" ControlType="XRTableCell" Text="xrTableCell17" TextAlignment="MiddleRight" Weight="0.18334382611840194">
+                      <DataBindings>
+                        <Item1 Ref="64" FormatString="{0:N0}" PropertyName="Text" DataMember="po_pusat.detail_po_pusat_ibfk_2.total" />
+                      </DataBindings>
+                      <StylePriority Ref="65" UseTextAlignment="false" />
+                    </Item9>
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="66" UsePadding="false" UseTextAlignment="false" />
+            </Item1>
+          </Controls>
+        </Item1>
+        <Item2 Ref="67" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="26.99999">
+          <Controls>
+            <Item1 Ref="68" Name="xrTable1" ControlType="XRTable" SizeF="625.9048,25" LocationFloat="0, 0" Padding="5,5,5,5,100" TextAlignment="MiddleCenter">
+              <Rows>
+                <Item1 Ref="69" Name="xrTableRow1" ControlType="XRTableRow" Weight="1">
+                  <Cells>
+                    <Item1 Ref="70" Name="xrTableCell1" ControlType="XRTableCell" Text="No." Weight="0.48829305351383367" />
+                    <Item2 Ref="71" Name="xrTableCell2" ControlType="XRTableCell" Text="GOODSID" Weight="1.212140498497049" />
+                    <Item3 Ref="72" Name="xrTableCell3" ControlType="XRTableCell" Text="GOODSNAME" Weight="1.88372073633631" />
+                    <Item4 Ref="73" Name="xrTableCell5" ControlType="XRTableCell" Text="QTY" Weight="0.5738262720231696" />
+                    <Item5 Ref="74" Name="xrTableCell4" ControlType="XRTableCell" Text="SIZE" Weight="0.84201943962963766" />
+                    <Item6 Ref="75" Name="xrTableCell6" ControlType="XRTableCell" Text="TYPE" Weight="0.888275226539702" />
+                    <Item7 Ref="76" Name="xrTableCell7" ControlType="XRTableCell" Text="LITER" Weight="0.84211510191543981" />
+                    <Item8 Ref="77" Name="xrTableCell8" ControlType="XRTableCell" Text="PRICE/LTR" Weight="1.1200438817824781" />
+                    <Item9 Ref="78" Name="xrTableCell9" ControlType="XRTableCell" Text="TOTAL" Weight="1.14956578976238" />
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="79" UsePadding="false" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="80" Name="xrLine2" ControlType="XRLine" SizeF="623.9362,2" LocationFloat="0, 24.99999" />
+          </Controls>
+        </Item2>
+        <Item3 Ref="81" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="100">
+          <Controls>
+            <Item1 Ref="82" Name="xrLine4" ControlType="XRLine" SizeF="199.3039,2.000006" LocationFloat="425.7353, 24.87743" />
+            <Item2 Ref="83" Name="xrLine1" ControlType="XRLine" SizeF="199.9166,2" LocationFloat="425.9259, 77.64445" />
+            <Item3 Ref="84" Name="xrLabel16" ControlType="XRLabel" TextAlignment="TopLeft" SizeF="80.20834,23.00001" LocationFloat="0, 9.999974" Font="Times New Roman, 10pt" Padding="2,2,0,0,100" Text="Delivery To :">
+              <StylePriority Ref="85" UseFont="false" UseTextAlignment="false" />
+            </Item3>
+            <Item4 Ref="86" Name="xrLabel17" ControlType="XRLabel" TextAlignment="TopLeft" SizeF="234.375,79.99999" LocationFloat="81.59721, 9.999973" Font="Times New Roman, 10pt" Padding="2,2,0,0,100" Text="CV. Wardana Abadi Djaya&#xD;&#xA;Jl. Lak. Malahayati No.01. Teluk Betung&#xD;&#xA;Bandar Lampung&#xD;&#xA;Phone : 0721-4848089&#xD;&#xA;HP : 0812-71274662" Multiline="true">
+              <StylePriority Ref="87" UseFont="false" UseTextAlignment="false" />
+            </Item4>
+            <Item5 Ref="88" Name="xrTable3" ControlType="XRTable" SizeF="200,77.89352" LocationFloat="427, 0" Padding="5,5,5,5,100" TextAlignment="MiddleLeft">
+              <Rows>
+                <Item1 Ref="89" Name="xrTableRow3" ControlType="XRTableRow" Weight="1">
+                  <Cells>
+                    <Item1 Ref="90" Name="xrTableCell20" ControlType="XRTableCell" Text="SUB TOTAL" Weight="1.1895836165746485" />
+                    <Item2 Ref="91" Name="xrTableCell21" ControlType="XRTableCell" TextAlignment="MiddleRight" Weight="0.81041638342535149">
+                      <DataBindings>
+                        <Item1 Ref="92" FormatString="{0:N0}" PropertyName="Text" DataMember="po_pusat.sub_total" />
+                      </DataBindings>
+                      <StylePriority Ref="93" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item1>
+                <Item2 Ref="94" Name="xrTableRow4" ControlType="XRTableRow" Weight="1">
+                  <Cells>
+                    <Item1 Ref="95" Name="xrTableCell19" ControlType="XRTableCell" Text="PPN 10%" Weight="1.1895842269263042" />
+                    <Item2 Ref="96" Name="xrTableCell22" ControlType="XRTableCell" TextAlignment="MiddleRight" Weight="0.81041577307369594">
+                      <DataBindings>
+                        <Item1 Ref="97" FormatString="{0:N0}" PropertyName="Text" DataMember="po_pusat.ppn" />
+                      </DataBindings>
+                      <StylePriority Ref="98" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item2>
+                <Item3 Ref="99" Name="xrTableRow5" ControlType="XRTableRow" Weight="1">
+                  <Cells>
+                    <Item1 Ref="100" Name="xrTableCell23" ControlType="XRTableCell" Text="TOTAL" Weight="1.1895842269263042" />
+                    <Item2 Ref="101" Name="xrTableCell24" ControlType="XRTableCell" TextAlignment="MiddleRight" Weight="0.81041577307369583">
+                      <DataBindings>
+                        <Item1 Ref="102" FormatString="{0:N0}" PropertyName="Text" DataMember="po_pusat.total" />
+                      </DataBindings>
+                      <StylePriority Ref="103" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item3>
+              </Rows>
+              <StylePriority Ref="104" UsePadding="false" UseTextAlignment="false" />
+            </Item5>
+            <Item6 Ref="105" Name="xrLine3" ControlType="XRLine" SizeF="199.9166,2.000004" LocationFloat="426.8493, 51.31628" />
+          </Controls>
+        </Item3>
+      </Bands>
+    </Item5>
+  </Bands>
+  <CrossBandControls>
+    <Item1 Ref="106" Name="xrCrossBandLine10" ControlType="XRCrossBandLine" StartPointFloat="33.33337, 0" EndPointFloat="33.33337, 3.472222" EndBand="#Ref-81" StartBand="#Ref-67" WidthF="1" LocationFloat="33.33337, 0" />
+    <Item2 Ref="107" Name="xrCrossBandLine9" ControlType="XRCrossBandLine" StartPointFloat="117.3611, 0" EndPointFloat="117.3611, 2.777777" EndBand="#Ref-81" StartBand="#Ref-67" WidthF="1.000008" LocationFloat="117.3611, 0" />
+    <Item3 Ref="108" Name="xrCrossBandLine8" ControlType="XRCrossBandLine" StartPointFloat="248.6111, 3.472222" EndPointFloat="248.6111, 2.777777" EndBand="#Ref-81" StartBand="#Ref-67" WidthF="1" LocationFloat="248.6111, 3.472222" />
+    <Item4 Ref="109" Name="xrCrossBandLine7" ControlType="XRCrossBandLine" StartPointFloat="289.5833, 1.388889" EndPointFloat="289.5833, 4.166666" EndBand="#Ref-81" StartBand="#Ref-67" WidthF="1" LocationFloat="289.5833, 1.388889" />
+    <Item5 Ref="110" Name="xrCrossBandLine6" ControlType="XRCrossBandLine" StartPointFloat="348.6111, 0.6944444" EndPointFloat="348.6111, 3.472222" EndBand="#Ref-81" StartBand="#Ref-67" WidthF="1" LocationFloat="348.6111, 0.6944444" />
+    <Item6 Ref="111" Name="xrCrossBandLine5" ControlType="XRCrossBandLine" StartPointFloat="407.6389, 1.388889" EndPointFloat="407.6389, 3.472222" EndBand="#Ref-81" StartBand="#Ref-67" WidthF="1" LocationFloat="407.6389, 1.388889" />
+    <Item7 Ref="112" Name="xrCrossBandLine4" ControlType="XRCrossBandLine" StartPointFloat="467.3611, 0" EndPointFloat="467.3611, 2.083333" EndBand="#Ref-81" StartBand="#Ref-67" WidthF="1" LocationFloat="467.3611, 0" />
+    <Item8 Ref="113" Name="xrCrossBandLine3" ControlType="XRCrossBandLine" StartPointFloat="545.4306, 0" EndPointFloat="545.4306, 78.23613" EndBand="#Ref-81" StartBand="#Ref-67" WidthF="1" LocationFloat="545.4306, 0" />
+    <Item9 Ref="114" Name="xrCrossBandLine2" ControlType="XRCrossBandLine" StartPointFloat="425.9259, 0.5787036" EndPointFloat="425.9259, 77.64445" EndBand="#Ref-81" StartBand="#Ref-81" WidthF="1" LocationFloat="425.9259, 0.5787036" />
+    <Item10 Ref="115" Name="xrCrossBandLine1" ControlType="XRCrossBandLine" StartPointFloat="625.3731, 0.4805458" EndPointFloat="625.3731, 79.18424" EndBand="#Ref-81" StartBand="#Ref-81" WidthF="1.000061" LocationFloat="625.3731, 0.4805458" />
+    <Item11 Ref="116" Name="xrCrossBandBox1" ControlType="XRCrossBandBox" StartPointFloat="0, 0" EndPointFloat="0, 1.041667" EndBand="#Ref-81" StartBand="#Ref-67" WidthF="625.905" BorderWidth="1" LocationFloat="0, 0" />
+  </CrossBandControls>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v14.2" Ref="0" Content="~Xtra#NULL" Type="Jotun.DataSet1" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v14.2" Ref="37" Content="~Xtra#NULL" Type="Jotun.DataSet1TableAdapters.detail_po_pusatTableAdapter" />
+    <Item3 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v14.2" Ref="1" Content="~Xtra#NULL" Type="Jotun.DataSet1TableAdapters.po_pusatTableAdapter" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

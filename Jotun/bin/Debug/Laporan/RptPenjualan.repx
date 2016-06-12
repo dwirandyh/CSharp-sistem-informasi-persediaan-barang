@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="14.2.6.0" Ref="2" Name="RptPenjualan" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" DataAdapter="#Ref-1" DataSource="#Ref-0" DataMember="invoice" Version="14.2" PageHeight="1100" PageWidth="850" Margins="101, 100, 100, 100">
+  <Bands>
+    <Item1 Ref="3" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="48.95833">
+      <Controls>
+        <Item1 Ref="4" Name="xrLabel8" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="0, 10.00001" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Text="No. Invoice">
+          <StylePriority Ref="5" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="6" Name="xrLabel2" ControlType="XRLabel" TextAlignment="MiddleRight" SizeF="202.125,23" LocationFloat="446.875, 10.00001" Padding="2,2,0,0,100" Text="xrLabel2">
+          <DataBindings>
+            <Item1 Ref="7" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="invoice.tgl" />
+          </DataBindings>
+          <StylePriority Ref="8" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="9" Name="xrLabel1" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="164.5833,23" LocationFloat="111.4583, 10.00001" Padding="2,2,0,0,100" Text="xrLabel1">
+          <DataBindings>
+            <Item1 Ref="10" PropertyName="Text" DataMember="invoice.no_invoice" />
+          </DataBindings>
+          <StylePriority Ref="11" UseTextAlignment="false" />
+        </Item3>
+      </Controls>
+    </Item1>
+    <Item2 Ref="12" Name="TopMargin" ControlType="TopMarginBand" Padding="0,0,0,0,100" TextAlignment="TopLeft" HeightF="100" />
+    <Item3 Ref="13" Name="BottomMargin" ControlType="BottomMarginBand" Padding="0,0,0,0,100" TextAlignment="TopLeft" HeightF="100" />
+    <Item4 Ref="14" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="63.54167" PageBreak="BeforeBandExceptFirstEntry">
+      <Controls>
+        <Item1 Ref="15" Name="xrLabel7" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="320.6439,23" LocationFloat="151.7321, 22.99999" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel7">
+          <DataBindings>
+            <Item1 Ref="16" PropertyName="Text" DataMember="invoice.invoice_customer.nama" />
+          </DataBindings>
+          <StylePriority Ref="17" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="18" Name="xrLabel6" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="132.197,23" LocationFloat="0, 22.99999" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" Text="Nama">
+          <StylePriority Ref="19" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="20" Name="xrLabel5" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="132.197,23" LocationFloat="0, 0" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" Text="Kode Customer">
+          <StylePriority Ref="21" UseFont="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="22" Name="xrLabel3" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="173.8636,23" LocationFloat="151.7321, 0" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel3">
+          <DataBindings>
+            <Item1 Ref="23" PropertyName="Text" DataMember="invoice.kd_customer" />
+          </DataBindings>
+          <StylePriority Ref="24" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+      </Controls>
+      <GroupFields>
+        <Item1 Ref="25" FieldName="kd_customer" />
+      </GroupFields>
+    </Item4>
+    <Item5 Ref="27" ControlType="DetailReportBand" Name="DetailReport" Level="0" DataMember="invoice.detail_invoice_ibfk_1" DataSource="#Ref-0" DataAdapter="#Ref-26">
+      <Bands>
+        <Item1 Ref="28" ControlType="DetailBand" Name="Detail1" HeightF="29.73484">
+          <Controls>
+            <Item1 Ref="29" Name="xrTable3" ControlType="XRTable" SizeF="649,29.73484" LocationFloat="0, 0" Padding="5,5,5,5,100" TextAlignment="MiddleLeft">
+              <Rows>
+                <Item1 Ref="30" Name="xrTableRow5" ControlType="XRTableRow" Weight="11.5">
+                  <Cells>
+                    <Item1 Ref="31" Name="xrTableCell18" ControlType="XRTableCell" Weight="0.21830491239672112">
+                      <DataBindings>
+                        <Item1 Ref="32" PropertyName="Text" DataMember="invoice.detail_invoice_ibfk_1.kd_barang" />
+                      </DataBindings>
+                      <Summary Ref="33" Running="Group" Func="RecordNumber" />
+                    </Item1>
+                    <Item2 Ref="34" Name="xrTableCell13" ControlType="XRTableCell" Text="xrTableCell13" Weight="0.85905441289878592">
+                      <DataBindings>
+                        <Item1 Ref="35" PropertyName="Text" DataMember="invoice.detail_invoice_ibfk_1.kd_barang" />
+                      </DataBindings>
+                    </Item2>
+                    <Item3 Ref="36" Name="xrTableCell14" ControlType="XRTableCell" Text="xrTableCell14" Weight="1.2632257693008064">
+                      <DataBindings>
+                        <Item1 Ref="37" PropertyName="Text" DataMember="invoice.detail_invoice_ibfk_1.detail_invoice_barang.nama" />
+                      </DataBindings>
+                    </Item3>
+                    <Item4 Ref="38" Name="xrTableCell15" ControlType="XRTableCell" Text="xrTableCell15" Weight="0.32931979160633584">
+                      <DataBindings>
+                        <Item1 Ref="39" PropertyName="Text" DataMember="invoice.detail_invoice_ibfk_1.liter" />
+                      </DataBindings>
+                    </Item4>
+                    <Item5 Ref="40" Name="xrTableCell16" ControlType="XRTableCell" Text="xrTableCell16" Weight="0.97621590480600762">
+                      <DataBindings>
+                        <Item1 Ref="41" PropertyName="Text" DataMember="invoice.detail_invoice_ibfk_1.harga" />
+                      </DataBindings>
+                    </Item5>
+                    <Item6 Ref="42" Name="xrTableCell17" ControlType="XRTableCell" Text="xrTableCell17" TextAlignment="MiddleRight" Weight="0.56757223033984916">
+                      <DataBindings>
+                        <Item1 Ref="43" FormatString="{0:N0}" PropertyName="Text" DataMember="invoice.detail_invoice_ibfk_1.total" />
+                      </DataBindings>
+                      <StylePriority Ref="44" UseTextAlignment="false" />
+                    </Item6>
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="45" UsePadding="false" UseTextAlignment="false" />
+            </Item1>
+          </Controls>
+        </Item1>
+        <Item2 Ref="46" ControlType="GroupHeaderBand" Name="GroupHeader2" HeightF="33.97617">
+          <Controls>
+            <Item1 Ref="47" Name="xrLine3" ControlType="XRLine" SizeF="648.8096,4.488083" LocationFloat="0, 29.48808" LineWidth="2" />
+            <Item2 Ref="48" Name="xrTable2" ControlType="XRTable" SizeF="649,25" LocationFloat="0, 4.488083" Padding="5,5,5,5,100" TextAlignment="MiddleCenter">
+              <Rows>
+                <Item1 Ref="49" Name="xrTableRow2" ControlType="XRTableRow" Weight="1">
+                  <Cells>
+                    <Item1 Ref="50" Name="xrTableCell4" ControlType="XRTableCell" Text="NO." Weight="0.39229766642292274" />
+                    <Item2 Ref="51" Name="xrTableCell5" ControlType="XRTableCell" Text="KODE BARANG" Weight="1.1495216840684066" />
+                    <Item3 Ref="52" Name="xrTableCell6" ControlType="XRTableCell" Text="NAMA BARANG" Weight="1.8078141898436351" />
+                    <Item4 Ref="53" Name="xrTableCell7" ControlType="XRTableCell" Text="LITER" Weight="0.4712927334331698" />
+                    <Item5 Ref="54" Name="xrTableCell8" ControlType="XRTableCell" Text="HARGA SATUAN" Weight="1.3970711753988265" />
+                    <Item6 Ref="55" Name="xrTableCell9" ControlType="XRTableCell" Text="JUMLAH" Weight="0.81225899827684855" />
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="56" UsePadding="false" UseTextAlignment="false" />
+            </Item2>
+            <Item3 Ref="57" Name="xrLine2" ControlType="XRLine" SizeF="648.8096,4.488083" LocationFloat="0, 0" LineWidth="2" />
+          </Controls>
+        </Item2>
+        <Item3 Ref="58" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="120.8333">
+          <Controls>
+            <Item1 Ref="59" Name="xrLine4" ControlType="XRLine" SizeF="648.8096,4.488083" LocationFloat="0, 0" LineWidth="2" />
+            <Item2 Ref="60" Name="xrTable1" ControlType="XRTable" SizeF="221.875,78.78789" LocationFloat="426.178, 5.681818" Font="Times New Roman, 9.75pt, style=Bold" Padding="5,5,5,5,100">
+              <Rows>
+                <Item1 Ref="61" Name="xrTableRow1" ControlType="XRTableRow" Weight="1">
+                  <Cells>
+                    <Item1 Ref="62" Name="xrTableCell2" ControlType="XRTableCell" Text="TOTAL" Weight="1" />
+                    <Item2 Ref="63" Name="xrTableCell3" ControlType="XRTableCell" TextAlignment="TopRight" Weight="1">
+                      <DataBindings>
+                        <Item1 Ref="64" FormatString="{0:N0}" PropertyName="Text" DataMember="invoice.total" />
+                      </DataBindings>
+                      <StylePriority Ref="65" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item1>
+                <Item2 Ref="66" Name="xrTableRow4" ControlType="XRTableRow" Weight="1">
+                  <Cells>
+                    <Item1 Ref="67" Name="xrTableCell11" ControlType="XRTableCell" Text="DISKON" Weight="1" />
+                    <Item2 Ref="68" Name="xrTableCell12" ControlType="XRTableCell" TextAlignment="TopRight" Weight="1">
+                      <DataBindings>
+                        <Item1 Ref="69" FormatString="{0:N0}" PropertyName="Text" DataMember="invoice.diskon" />
+                      </DataBindings>
+                      <StylePriority Ref="70" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item2>
+                <Item3 Ref="71" Name="xrTableRow3" ControlType="XRTableRow" Weight="1">
+                  <Cells>
+                    <Item1 Ref="72" Name="xrTableCell1" ControlType="XRTableCell" Text="TOTAL BAYAR" Weight="1" />
+                    <Item2 Ref="73" Name="xrTableCell10" ControlType="XRTableCell" TextAlignment="TopRight" Weight="1">
+                      <DataBindings>
+                        <Item1 Ref="74" FormatString="{0:N0}" PropertyName="Text" DataMember="invoice.total_bayar" />
+                      </DataBindings>
+                      <StylePriority Ref="75" UseTextAlignment="false" />
+                    </Item2>
+                  </Cells>
+                </Item3>
+              </Rows>
+              <StylePriority Ref="76" UseFont="false" UsePadding="false" />
+            </Item2>
+            <Item3 Ref="77" Name="xrLine1" ControlType="XRLine" SizeF="648.8096,4.488083" LocationFloat="0, 94.57576" LineWidth="3" />
+          </Controls>
+        </Item3>
+      </Bands>
+    </Item5>
+    <Item6 Ref="78" Name="ReportHeader" ControlType="ReportHeaderBand" HeightF="77.27273">
+      <Controls>
+        <Item1 Ref="79" Name="xrLabel4" ControlType="XRLabel" TextAlignment="MiddleLeft" SizeF="291.6609,23" LocationFloat="180.7151, 25.1894" Font="Times New Roman, 16pt, style=Bold" Padding="2,2,0,0,100" Text="Laporan Penjualan Barang">
+          <StylePriority Ref="80" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item6>
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v14.2" Ref="0" Content="~Xtra#NULL" Type="Jotun.DataSet1" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v14.2" Ref="26" Content="~Xtra#NULL" Type="Jotun.DataSet1TableAdapters.detail_invoiceTableAdapter" />
+    <Item3 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v14.2" Ref="1" Content="~Xtra#NULL" Type="Jotun.DataSet1TableAdapters.invoiceTableAdapter" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>
